@@ -1,0 +1,10 @@
+.Container{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.backg{
+    background-image: url("Assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
