@@ -4,9 +4,7 @@
 }
 
 .backg{
-    background-image: url("Assets/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f6f6f6;
 }
 
 a{

@@ -29,10 +29,12 @@
             <div class="mb-3">
                 <label for="user_name" class="form-label">Username</label>
                 <input type="text" class="form-control" id="user_name">
+                <div id="name_error" class="form-text text-danger"></div>
             </div>
             <div class="mb-3">
                 <label for="mail" class="form-label">Email</label>
                 <input type="email" class="form-control" id="mail">
+                <div id="mail_error" class="form-text text-danger"></div>
             </div>
             <div class="mb-3">
                 <label for="passrd" class="form-label">Password</label>
@@ -144,7 +146,7 @@
                   </table>
             </div>
             <center>
-                <a href="New_Page.html"><button type="button" class="btn btn-primary">Submit</button></a>
+                <button type="button" class="btn btn-primary" id="sub_button">Submit</button>
                 <button type="reset" class="btn btn-primary">Reset</button>
             </center>
         </form>
@@ -153,5 +155,6 @@
     <hr>
     <center><footer>Copyright ©1994-2050, Joel Jojo</footer></center>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
